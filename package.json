@@ -1,0 +1,39 @@
+{
+  "name": "prestador-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITprocesos/prestador-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITprocesos/prestador-service/issues"
+  },
+  "homepage": "https://github.com/ITprocesos/prestador-service#readme",
+  "dependencies": {
+    "@azure/identity": "^2.1.0",
+    "@azure/storage-blob": "^12.11.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "excel4node": "^1.8.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.16",
+    "pdfkit": "^0.13.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "read-excel-file": "^5.4.4",
+    "sequelize": "^6.21.2",
+    "uuid": "^8.3.2"
+  }
+}
